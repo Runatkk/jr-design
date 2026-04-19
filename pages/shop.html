@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Shop — Decora Furniture</title>
+  <link rel="stylesheet" href="../css/style.css" />
+  <style>
+    body { padding-top: var(--nav-h); }
+    .shop-header { padding: 4rem 0 3rem; }
+    .shop-header h1 { font-size: clamp(3rem,6vw,5rem); text-align:center; }
+    .shop-header p { text-align:center; color:var(--text-mid); font-size:.9rem; margin-top:.75rem; }
+  </style>
+</head>
+<body>
+
+<div class="shop-header">
+  <div class="container">
+    <h1 class="fade-up">Shop furniture</h1>
+    <p class="fade-up fade-up-d1">Curated pieces selected by our design team</p>
+  </div>
+</div>
+
+<section class="section" style="padding-top:0;">
+  <div class="container">
+    <div class="filter-bar fade-up">
+      <button class="filter-btn active" data-filter="all">All</button>
+      <button class="filter-btn" data-filter="lighting">Lighting</button>
+      <button class="filter-btn" data-filter="seating">Seating</button>
+      <button class="filter-btn" data-filter="tables">Tables</button>
+      <button class="filter-btn" data-filter="storage">Storage</button>
+      <button class="filter-btn" data-filter="textiles">Textiles</button>
+    </div>
+
+    <div class="shop-grid">
+      <a href="#" class="shop-card fade-up" data-category="lighting">
+        <div class="shop-card-img-wrap">
+          <img src="https://images.unsplash.com/photo-1524484485831-a92ffc0de03f?w=600&q=75&auto=format&fit=crop" alt="Orbit Chandelier" />
+        </div>
+        <div class="shop-card-meta">
+          <h3>Orbit Chandelier</h3>
+          <p class="price">£1,240</p>
+        </div>
+      </a>
+      <a href="#" class="shop-card fade-up fade-up-d1" data-category="seating">
+        <div class="shop-card-img-wrap">
+          <img src="https://images.unsplash.com/photo-1555041469-a586c61ea9bc?w=600&q=75&auto=format&fit=crop" alt="Arc Lounge Chair" />
+        </div>
+        <div class="shop-card-meta">
+          <h3>Arc Lounge Chair</h3>
+          <p class="price">£2,890</p>
+        </div>
+      </a>
+      <a href="#" class="shop-card fade-up fade-up-d2" data-category="seating">
+        <div class="shop-card-img-wrap">
+          <img src="https://images.unsplash.com/photo-1567538096621-38d2284b23ff?w=600&q=75&auto=format&fit=crop" alt="Wren Dining Chair" />
+        </div>
+        <div class="shop-card-meta">
+          <h3>Wren Dining Chair</h3>
+          <p class="price">£680</p>
+        </div>
+      </a>
+      <a href="#" class="shop-card fade-up fade-up-d3" data-category="tables">
+        <div class="shop-card-img-wrap">
+          <img src="https://images.unsplash.com/photo-1565814329452-e1efa11c5b89?w=600&q=75&auto=format&fit=crop" alt="Pebble Side Table" />
+        </div>
+        <div class="shop-card-meta">
+          <h3>Pebble Side Table</h3>
+          <p class="price">£490</p>
+        </div>
+      </a>
+      <a href="#" class="shop-card fade-up" data-category="seating">
+        <div class="shop-card-img-wrap">
+          <img src="https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=600&q=75&auto=format&fit=crop" alt="Haven Sofa" />
+        </div>
+        <div class="shop-card-meta">
+          <h3>Haven Sofa</h3>
+          <p class="price">£4,200</p>
+        </div>
+      </a>
+      <a href="#" class="shop-card fade-up fade-up-d1" data-category="storage">
+        <div class="shop-card-img-wrap">
+          <img src="https://images.unsplash.com/photo-1540932239986-30128da98f38?w=600&q=75&auto=format&fit=crop" alt="Column Shelving Unit" />
+        </div>
+        <div class="shop-card-meta">
+          <h3>Column Shelving Unit</h3>
+          <p class="price">£1,650</p>
+        </div>
+      </a>
+      <a href="#" class="shop-card fade-up fade-up-d2" data-category="textiles">
+        <div class="shop-card-img-wrap">
+          <img src="https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?w=600&q=75&auto=format&fit=crop" alt="Linen Throw" />
+        </div>
+        <div class="shop-card-meta">
+          <h3>Linen Throw Blanket</h3>
+          <p class="price">£195</p>
+        </div>
+      </a>
+      <a href="#" class="shop-card fade-up fade-up-d3" data-category="lighting">
+        <div class="shop-card-img-wrap">
+          <img src="https://images.unsplash.com/photo-1507473885765-e6ed057f782c?w=600&q=75&auto=format&fit=crop" alt="Taper Floor Lamp" />
+        </div>
+        <div class="shop-card-meta">
+          <h3>Taper Floor Lamp</h3>
+          <p class="price">£780</p>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- CTA -->
+<div class="cta-band">
+  <img class="cta-band-bg" src="https://images.unsplash.com/photo-1604014056049-cf39c07f8d88?w=1800&q=80&auto=format&fit=crop" alt="Stone texture" />
+  <div class="cta-card fade-up">
+    <h2>Get in touch</h2>
+    <p>Looking for something specific? Our team can source bespoke pieces for your project.</p>
+    <a href="contact.html" class="arrow-link">Contact us →</a>
+  </div>
+</div>
+
+<script src="../js/layout.js"></script>
+<script src="../js/main.js"></script>
+</body>
+</html>
