@@ -29,11 +29,8 @@
       <div class="footer-top">
         <div>
           <a class="nav-logo" href="${isRoot ? 'index.html' : '../index.html'}" style="text-decoration:none;display:inline-flex;align-items:center;gap:.5rem;font-family:var(--font-display);font-size:1.2rem;color:var(--text-dark);">
-            <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
-              <path d="M4 18L12 6L20 18H4Z" fill="currentColor" opacity="0.5"/>
-              <path d="M8 18L16 8L22 18H8Z" fill="currentColor"/>
-            </svg>
-            Decora
+          
+            J&R Design
           </a>
           <p class="footer-address">Studio 2A, 17 Cavendish Crescent,<br>Marylebone, London W1G 8QL,<br>United Kingdom</p>
         </div>
@@ -53,19 +50,19 @@
             </a>
           </div>
           <ul class="footer-nav">
-            <li><a href="${isRoot ? 'pages/' : ''}portfolio.html">Portfolio</a></li>
-            <li><a href="${isRoot ? 'pages/' : ''}shop.html">Shop</a></li>
             <li><a href="${isRoot ? 'pages/' : ''}about.html">About us</a></li>
             <li><a href="${isRoot ? 'pages/' : ''}contact.html">Contact us</a></li>
           </ul>
         </div>
       </div>
       <div class="footer-bottom">
-        <p class="footer-copy">©2025 Decora. All rights reserved.</p>
-        <p class="footer-copy">Interior Design Studio</p>
+        <p class="footer-copy">©2026 J&R Design. All rights reserved.</p>
+        <p class="footer-copy">Web Design Studio</p>
       </div>
     </div>
   </footer>`;
+            //   <li><a href="${isRoot ? 'pages/' : ''}portfolio.html">Portfolio</a></li>
+            // <li><a href="${isRoot ? 'pages/' : ''}shop.html">Shop</a></li>
 
   document.body.insertAdjacentHTML('afterbegin', navHTML);
   document.body.insertAdjacentHTML('beforeend', footerHTML);
